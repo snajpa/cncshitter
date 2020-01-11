@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:cncshitter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -587,7 +588,7 @@ F 1 "SPINDLE_PWM_ENC" H 6130 4601 50  0000 L CNN
 F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_5-G-5.08_1x05_P5.08mm_Horizontal" H 6050 4650 50  0001 C CNN
 F 3 "~" H 6050 4650 50  0001 C CNN
 	1    6050 4650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0113
@@ -938,7 +939,7 @@ Text Label 3900 2800 2    50   ~ 0
 LPT_GND
 Wire Wire Line
 	3900 4200 4050 4200
-Text Label 3800 4300 0    50   ~ 0
+Text Label 3900 4200 2    50   ~ 0
 LPT_GND
 Wire Wire Line
 	3900 4750 4050 4750
@@ -1108,4 +1109,48 @@ Text Label 1900 3150 0    50   ~ 0
 SPINDLE_PWM
 Text Label 1900 3350 0    50   ~ 0
 SPINDLE_ENABLE
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E20C0CA
+P 1550 5900
+F 0 "H1" H 1650 5946 50  0000 L CNN
+F 1 "MountingHole" H 1650 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 5900 50  0001 C CNN
+F 3 "~" H 1550 5900 50  0001 C CNN
+	1    1550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E20C43C
+P 1550 6100
+F 0 "H2" H 1650 6146 50  0000 L CNN
+F 1 "MountingHole" H 1650 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 6100 50  0001 C CNN
+F 3 "~" H 1550 6100 50  0001 C CNN
+	1    1550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E20C642
+P 1550 6300
+F 0 "H3" H 1650 6346 50  0000 L CNN
+F 1 "MountingHole" H 1650 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 6300 50  0001 C CNN
+F 3 "~" H 1550 6300 50  0001 C CNN
+	1    1550 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E20C81F
+P 1550 6500
+F 0 "H4" H 1650 6546 50  0000 L CNN
+F 1 "MountingHole" H 1650 6455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 6500 50  0001 C CNN
+F 3 "~" H 1550 6500 50  0001 C CNN
+	1    1550 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
