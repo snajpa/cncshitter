@@ -1110,28 +1110,6 @@ SPINDLE_PWM
 Text Label 1900 3350 0    50   ~ 0
 SPINDLE_ENABLE
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5E20C0CA
-P 1550 5900
-F 0 "H1" H 1650 5946 50  0000 L CNN
-F 1 "MountingHole" H 1650 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 5900 50  0001 C CNN
-F 3 "~" H 1550 5900 50  0001 C CNN
-	1    1550 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5E20C43C
-P 1550 6100
-F 0 "H2" H 1650 6146 50  0000 L CNN
-F 1 "MountingHole" H 1650 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 6100 50  0001 C CNN
-F 3 "~" H 1550 6100 50  0001 C CNN
-	1    1550 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H3
 U 1 1 5E20C642
 P 1550 6300
@@ -1140,6 +1118,17 @@ F 1 "MountingHole" H 1650 6255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 6300 50  0001 C CNN
 F 3 "~" H 1550 6300 50  0001 C CNN
 	1    1550 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E20C0CA
+P 1550 5900
+F 0 "H1" H 1650 5946 50  0000 L CNN
+F 1 "MountingHole" H 1650 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1550 5900 50  0001 C CNN
+F 3 "~" H 1550 5900 50  0001 C CNN
+	1    1550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
