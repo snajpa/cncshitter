@@ -1,4 +1,4 @@
-update=So 11. ledna 2020, 22:02:45 CET
+update=Ne 12. ledna 2020, 02:43:48 CET
 last_client=kicad
 [general]
 version=1
@@ -18,8 +18,8 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.4
-ViaDiameter1=1.2
+TrackWidth1=0.6
+ViaDiameter1=1.4
 ViaDrill1=1
 dPairWidth1=0.2
 dPairGap1=0.25
@@ -53,7 +53,7 @@ SolderPasteRatio=-0
 Name=pwr
 Clearance=0.2
 TrackWidth=1
-ViaDiameter=1.2
+ViaDiameter=1.4
 ViaDrill=1
 uViaDiameter=0.3
 uViaDrill=0.1
