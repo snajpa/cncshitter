@@ -26,23 +26,12 @@ F 3 " ~" H 1500 2600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x06 J7
-U 1 1 5E191CCA
-P 10950 3400
-F 0 "J7" H 10868 2875 50  0000 C CNN
-F 1 "AXIS_XYZ" H 10868 2966 50  0000 C CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_6-G-5.08_1x06_P5.08mm_Horizontal" H 10950 3400 50  0001 C CNN
-F 3 "~" H 10950 3400 50  0001 C CNN
-	1    10950 3400
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5E1945E8
 P 6150 5500
 F 0 "J1" H 6230 5492 50  0000 L CNN
 F 1 "24V_IN" H 6230 5401 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 6150 5500 50  0001 C CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 6150 5500 50  0001 C CNN
 F 3 "~" H 6150 5500 50  0001 C CNN
 	1    6150 5500
 	-1   0    0    -1  
@@ -393,17 +382,11 @@ $EndComp
 Wire Wire Line
 	5100 1850 5200 1850
 Wire Wire Line
-	3200 5800 4400 5800
-Wire Wire Line
 	4150 5250 4150 5700
-Wire Wire Line
-	4150 5700 4400 5700
 Wire Wire Line
 	4000 5250 4150 5250
 Wire Wire Line
 	4300 4900 4300 5600
-Wire Wire Line
-	4300 5600 4400 5600
 Wire Wire Line
 	4000 4900 4200 4900
 Wire Wire Line
@@ -452,39 +435,6 @@ Wire Wire Line
 Connection ~ 3400 6650
 Wire Wire Line
 	3400 6650 3550 6650
-$Comp
-L Connector:Screw_Terminal_01x05 J4
-U 1 1 5E21A47A
-P 4600 5700
-F 0 "J4" H 4680 5742 50  0000 L CNN
-F 1 "SPINDLE_PWM_ENC" H 4680 5651 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_5-G-5.08_1x05_P5.08mm_Horizontal" H 4600 5700 50  0001 C CNN
-F 3 "~" H 4600 5700 50  0001 C CNN
-	1    4600 5700
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5E24C682
-P 4400 5900
-F 0 "#PWR0113" H 4400 5650 50  0001 C CNN
-F 1 "GND" H 4405 5727 50  0000 C CNN
-F 2 "" H 4400 5900 50  0001 C CNN
-F 3 "" H 4400 5900 50  0001 C CNN
-	1    4400 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J5
-U 1 1 5E250E9A
-P 5050 7150
-F 0 "J5" H 5130 7142 50  0000 L CNN
-F 1 "SPINDLE_ENABLE" H 5130 7051 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 5050 7150 50  0001 C CNN
-F 3 "~" H 5050 7150 50  0001 C CNN
-	1    5050 7150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 7350 3550 7050
 $Comp
@@ -584,27 +534,12 @@ Wire Wire Line
 Wire Wire Line
 	5450 2800 5350 2800
 Connection ~ 5450 2550
-$Comp
-L Connector:Screw_Terminal_01x04 J6
-U 1 1 5E27D9A7
-P 6400 2050
-F 0 "J6" H 6480 2042 50  0000 L CNN
-F 1 "EMERGENCY_PROBE_ENABLE" H 6480 1951 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_4-G-5.08_1x04_P5.08mm_Horizontal" H 6400 2050 50  0001 C CNN
-F 3 "~" H 6400 2050 50  0001 C CNN
-	1    6400 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 1500 6200 1950
 Wire Wire Line
 	4400 1500 6200 1500
 Wire Wire Line
-	4400 2050 6200 2050
-Wire Wire Line
 	6100 3300 6100 2150
-Wire Wire Line
-	6100 2150 6200 2150
 Wire Wire Line
 	5350 3300 6100 3300
 Wire Wire Line
@@ -769,7 +704,7 @@ U 1 1 5E35FB4B
 P 6150 6100
 F 0 "J2" H 6068 5775 50  0000 C CNN
 F 1 "5V_IN" H 6068 5866 50  0000 C CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 6150 6100 50  0001 C CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 6150 6100 50  0001 C CNN
 F 3 "~" H 6150 6100 50  0001 C CNN
 	1    6150 6100
 	-1   0    0    -1  
@@ -1355,16 +1290,10 @@ HV_ENABLE_A
 Text Label 5350 3500 0    50   ~ 0
 HV_ENABLE_B
 Wire Wire Line
-	4150 7150 4850 7150
-Wire Wire Line
-	4800 7350 4800 7250
-Wire Wire Line
-	4800 7250 4850 7250
-Wire Wire Line
 	3550 7350 4800 7350
-Text Label 4100 7350 0    50   ~ 0
+Text Label 4800 7350 0    50   ~ 0
 HV_SPINDLE_EN_B
-Text Label 4200 7150 0    50   ~ 0
+Text Label 4800 7150 0    50   ~ 0
 HV_SPINDLE_EN_A
 $Comp
 L Mechanical:MountingHole H2
@@ -1375,6 +1304,92 @@ F 1 "MountingHole" H 6100 4605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3mm_Pad" H 6000 4650 50  0001 C CNN
 F 3 "~" H 6000 4650 50  0001 C CNN
 	1    6000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1950 6200 1950
+Wire Wire Line
+	4400 2050 6950 2050
+Wire Wire Line
+	6100 2150 6950 2150
+Wire Wire Line
+	6200 2250 6950 2250
+Wire Wire Line
+	4400 5500 4850 5500
+Wire Wire Line
+	4300 5600 4850 5600
+Wire Wire Line
+	4150 5700 4850 5700
+Wire Wire Line
+	3200 5800 4850 5800
+Text Label 4850 5500 0    50   ~ 0
+PWM_A
+Text Label 4850 5600 0    50   ~ 0
+PWM_B
+Text Label 4850 5700 0    50   ~ 0
+PWM_C
+Text Label 6950 2350 2    50   ~ 0
+GND
+Text Label 6950 2450 2    50   ~ 0
+ENC
+Text Label 4850 5800 0    50   ~ 0
+ENC
+Text Label 6950 2550 2    50   ~ 0
+PWM_C
+Text Label 6950 2650 2    50   ~ 0
+PWM_B
+Text Label 6950 2750 2    50   ~ 0
+PWM_A
+Wire Wire Line
+	4800 7150 4150 7150
+Text Label 6950 2850 2    50   ~ 0
+HV_SPINDLE_EN_A
+Text Label 6950 2950 2    50   ~ 0
+HV_SPINDLE_EN_B
+Text Label 10750 3100 0    50   ~ 0
+X_DIR
+Text Label 10750 3200 0    50   ~ 0
+X_STEP
+Text Label 10750 3300 0    50   ~ 0
+Y_DIR
+Text Label 10750 3400 0    50   ~ 0
+Y_STEP
+Text Label 10750 3500 0    50   ~ 0
+Z_DIR
+Text Label 10750 3600 0    50   ~ 0
+Z_STEP
+Text Label 6950 3050 2    50   ~ 0
+Z_STEP
+Text Label 6950 3150 2    50   ~ 0
+Z_DIR
+Text Label 6950 3250 2    50   ~ 0
+Y_STEP
+Text Label 6950 3350 2    50   ~ 0
+Y_DIR
+Text Label 6950 3450 2    50   ~ 0
+X_STEP
+Text Label 6950 3550 2    50   ~ 0
+X_DIR
+$Comp
+L Connector:Screw_Terminal_01x06 J5
+U 1 1 5E7F05F7
+P 7150 2150
+F 0 "J5" H 7230 2142 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 7230 2051 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_6-G-5.08_1x06_P5.08mm_Vertical" H 7150 2150 50  0001 C CNN
+F 3 "~" H 7150 2150 50  0001 C CNN
+	1    7150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x11 J4
+U 1 1 5E7F24DD
+P 7150 3050
+F 0 "J4" H 7230 3092 50  0000 L CNN
+F 1 "Screw_Terminal_01x11" H 7230 3001 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_11-G-5.08_1x11_P5.08mm_Vertical" H 7150 3050 50  0001 C CNN
+F 3 "~" H 7150 3050 50  0001 C CNN
+	1    7150 3050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
