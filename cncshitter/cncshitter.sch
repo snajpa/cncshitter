@@ -477,20 +477,14 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J5
 U 1 1 5E250E9A
-P 4600 7150
-F 0 "J5" H 4680 7142 50  0000 L CNN
-F 1 "SPINDLE_ENABLE" H 4680 7051 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 4600 7150 50  0001 C CNN
-F 3 "~" H 4600 7150 50  0001 C CNN
-	1    4600 7150
+P 5050 7150
+F 0 "J5" H 5130 7142 50  0000 L CNN
+F 1 "SPINDLE_ENABLE" H 5130 7051 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 5050 7150 50  0001 C CNN
+F 3 "~" H 5050 7150 50  0001 C CNN
+	1    5050 7150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 7150 4400 7150
-Wire Wire Line
-	4400 7250 4400 7350
-Wire Wire Line
-	4400 7350 3550 7350
 Wire Wire Line
 	3550 7350 3550 7050
 $Comp
@@ -1356,4 +1350,31 @@ Wire Wire Line
 	1750 5150 2350 5150
 Wire Wire Line
 	2100 6850 2600 6850
+Text Label 5350 3300 0    50   ~ 0
+HV_ENABLE_A
+Text Label 5350 3500 0    50   ~ 0
+HV_ENABLE_B
+Wire Wire Line
+	4150 7150 4850 7150
+Wire Wire Line
+	4800 7350 4800 7250
+Wire Wire Line
+	4800 7250 4850 7250
+Wire Wire Line
+	3550 7350 4800 7350
+Text Label 4100 7350 0    50   ~ 0
+HV_SPINDLE_EN_B
+Text Label 4200 7150 0    50   ~ 0
+HV_SPINDLE_EN_A
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E711BB7
+P 6000 4650
+F 0 "H2" H 6100 4696 50  0000 L CNN
+F 1 "MountingHole" H 6100 4605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 6000 4650 50  0001 C CNN
+F 3 "~" H 6000 4650 50  0001 C CNN
+	1    6000 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

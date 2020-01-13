@@ -1,4 +1,4 @@
-update=Ne 12. ledna 2020, 02:43:48 CET
+update=Po 13. ledna 2020, 01:44:10 CET
 last_client=kicad
 [general]
 version=1
@@ -12,7 +12,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2
+MinTrackWidth=0.6
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -21,7 +21,7 @@ MinHoleToHole=0.25
 TrackWidth1=0.6
 ViaDiameter1=1.4
 ViaDrill1=1
-dPairWidth1=0.2
+dPairWidth1=0.6
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
@@ -50,6 +50,17 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
+Name=hv
+Clearance=1.3
+TrackWidth=1
+ViaDiameter=1.4
+ViaDrill=1
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=1
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=pwr
 Clearance=0.2
 TrackWidth=1
@@ -57,6 +68,6 @@ ViaDiameter=1.4
 ViaDrill=1
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
+dPairWidth=1
 dPairGap=0.25
 dPairViaGap=0.25
