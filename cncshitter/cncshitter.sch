@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L Connector:DB25_Male_MountingHoles J3
 U 1 1 5E18E720
-P 1500 2600
-F 0 "J3" H 1680 2509 50  0000 L CNN
-F 1 "DB25_Male_MountingHoles" H 1680 2600 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 1500 2600 50  0001 C CNN
-F 3 " ~" H 1500 2600 50  0001 C CNN
-	1    1500 2600
+P 1900 2150
+F 0 "J3" H 2080 2059 50  0000 L CNN
+F 1 "DB25_Male_MountingHoles" H 2080 2150 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 1900 2150 50  0001 C CNN
+F 3 " ~" H 1900 2150 50  0001 C CNN
+	1    1900 2150
 	1    0    0    1   
 $EndComp
 $Comp
@@ -713,45 +713,45 @@ Text Label 6350 6200 0    50   ~ 0
 LPT_GND
 Text Label 6350 6100 0    50   ~ 0
 LPT_VCC
-Text Label 1200 3700 2    50   ~ 0
+Text Label 1600 3250 2    50   ~ 0
 LPT_GND
-Text Label 1200 3500 2    50   ~ 0
+Text Label 1600 3050 2    50   ~ 0
 LPT_GND
-Text Label 1200 3300 2    50   ~ 0
+Text Label 1600 2850 2    50   ~ 0
 LPT_GND
-Text Label 1200 3100 2    50   ~ 0
+Text Label 1600 2650 2    50   ~ 0
 LPT_GND
-Text Label 1200 2900 2    50   ~ 0
+Text Label 1600 2450 2    50   ~ 0
 LPT_GND
-Text Label 1200 2700 2    50   ~ 0
+Text Label 1600 2250 2    50   ~ 0
 LPT_GND
-Text Label 1200 2500 2    50   ~ 0
+Text Label 1600 2050 2    50   ~ 0
 LPT_GND
-Text Label 1200 2300 2    50   ~ 0
+Text Label 1600 1850 2    50   ~ 0
 LPT_GND
-Text Label 1200 1600 2    50   ~ 0
+Text Label 1600 1150 2    50   ~ 0
 AXIS_X_DIR
-Text Label 1200 1800 2    50   ~ 0
+Text Label 1600 1350 2    50   ~ 0
 AXIS_X_STEP
-Text Label 1200 2000 2    50   ~ 0
+Text Label 1600 1550 2    50   ~ 0
 AXIS_Y_DIR
-Text Label 1200 2200 2    50   ~ 0
+Text Label 1600 1750 2    50   ~ 0
 AXIS_Y_STEP
-Text Label 1200 2400 2    50   ~ 0
+Text Label 1600 1950 2    50   ~ 0
 AXIS_Z_DIR
-Text Label 1200 2600 2    50   ~ 0
+Text Label 1600 2150 2    50   ~ 0
 AXIS_Z_STEP
-Text Label 1200 1400 2    50   ~ 0
+Text Label 1600 950  2    50   ~ 0
 ENABLE
-Text Label 1200 3600 2    50   ~ 0
+Text Label 1600 3150 2    50   ~ 0
 PROBE
-Text Label 1200 3800 2    50   ~ 0
+Text Label 1600 3350 2    50   ~ 0
 EMERGENCY
-Text Label 1200 3200 2    50   ~ 0
+Text Label 1600 2750 2    50   ~ 0
 SPINDLE_ENC
-Text Label 1200 2800 2    50   ~ 0
+Text Label 1600 2350 2    50   ~ 0
 SPINDLE_PWM
-Text Label 1200 3000 2    50   ~ 0
+Text Label 1600 2550 2    50   ~ 0
 SPINDLE_ENABLE
 $Comp
 L Mechanical:MountingHole H3
